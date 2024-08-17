@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frisilia Kiki</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Nama</h1>
+        <ul class="list-nav">
+
+          <li>
+            <a onclick="handleContentClick(1)">HOME</a>
+          </li>
+          
+          <li>
+            <a onclick="handleContentClick(2)">ABOUT ME</a>
+          </li>
+
+          <li>
+            <a onclick="handleContentClick(3)">SKIILS</a>
+          </li>
+
+          <li>
+            <a onclick="handleContentClick(4)">ACTIVITIES</a>
+          </li>
+
+        </ul>
+
+        <i class='bx bx-list-ul burger-bar'></i>
+        <ul class="list-nav-mobile">
+
+          <li>
+            <a onclick="handleContentClick(1)">HOME</a>
+          </li>
+
+          <li>
+            <a onclick="handleContentClick(2)">ABOUT ME</a>
+          </li>
+
+          <li>
+            <a onclick="handleContentClick(3)">SKIILS</a>
+          </li>
+
+          <li>
+            <a onclick="handleContentClick(4)">ACTIVITIES</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+    <main>
+      <section id="content1" class="home">
+        <!-- ini bagian text (kiri) -->
+        <div class="home-content">
+          <h3>Hello geysss, my name is</h3>
+          <h1>Frisilia Kiki</h1>
+          <h3>I am <span class="home-span-text"></span></h3>
+          <p>
+            I am a highly skilled individual with a strong foundation in communication, critical thinking responsibility, and teamwork,honed through diver experiences. As a former Student Council President, I led various initiatives and collaborated effectively with peers and school administration. My participation in numerous seminars and leadership training programs further refined my ability to think.
+          </p>
+
+          <div class="home-content-social">
+            <a href="https://www.instagram.com/kikio19_/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+
+            <a href="https://github.com/frisiliakiki" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+
+          <a
+            href="https://wa.me/+6282187445021"
+            target="_blank"
+            class="button-more-about"
+          >
+            More About Me</a
+          >
+        </div>
+
+        <!-- ini bagian gambar (kanan) -->
+        <div class="home-image">
+          <img src="images/profil.jpg" alt="Home Image" />
+        </div>
+      </section>
+
+      <section class="about">
+        <h2 id="content2" class="section-tittle">About <span>Me</span></h2>
+
+        <div class="about-img">
+          <img src="images/profil.jpg" alt="About" />
+        </div>
+
+        <div class="about-text">
+          <h3>Web Developer Enthusiastic</h3>
+
+          <p>
+            Halo, 
+            <br />
+            <br />
+            I am a student majoring in Information Systems at Hasanuddin University. Apart from attending lectures, I am also active in various campus organization activities. I have an interest in combining technology with data science to create innovative solutions.
+          </p>
+
+          <a
+            href="https://wa.me/+6282187445021"
+            target="_blank"
+            class="button-more-about"
+          >
+            More About Me</a
+          >
+        </div>
+      </section>
+
+      <section  class="skills">
+        <h2 id="content3" class="section-tittle">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+          <div>
+            <i class="bx bxl-python"></i>
+            <h3>Python</h3>
+            <p>
+              Python is a programming language that is easy to learn and use, with simple syntax and extensive libraries, suitable for various applications such as web development, data science, and automation.
+            </p>
+
+            <a
+              href="https://www.python.org/"
+              target="_blank"
+              >More</a
+            >
+          </div>
+
+          <div>
+            <i class="bx bxl-java"></i>
+            <h3>Java</h3>
+            <p>
+              Java is a powerful and portable object-oriented programming language, famous for its “write once, run anywhere” capability, making it suitable for cross-platform application development. 
+            </p>
+
+            <a
+              href="https://www.java.com/en/"
+              target="_blank"
+              >More</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section  class="activities">
+        <h2 id="content4" class="section-tittle">My <span>Activities</span></h2>
+
+        <div class="activities-container">
+          <div>
+            <img src="images/kegiatan1.png" alt="My Project" />
+            <div class="layer">
+              <h5>HEM</h5>
+              <p>
+                An application that can manage information and calculate household electricity usage.
+              </p>
+              <a href="https://github.com/frisiliakiki/LAB-PBO-5-2024" target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/kegiatan2.png" alt="My Project" />
+            <div class="layer">
+              <h5>Part of Forum JAKETOS</h5>
+              <p>
+                JAKETOS is one of the entrance pathways at Hasanuddin University, where those who can register are students who have served as osis chairman in high school.
+              </p>
+              <a href="https://www.instagram.com/forkomjaketos.uh/" target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><i class="bx bx-copyright"></i> Copyright 2024 Frisilia Kiki</p>
+
+      <script src="script.js"></script>
+
+    </footer>
+  </body>
+</html>
