@@ -273,7 +273,6 @@ nav .list-nav-mobile li a:hover {
 /* main about START */
 
 .about {
-  background: linear-gradient(360deg, rgb(231, 209, 11), rgb(255, 140, 0));
   padding: 30% 5%;
   display: flex;
   flex-direction: column;
