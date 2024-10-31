@@ -279,6 +279,8 @@ nav .list-nav-mobile li a:hover {
   justify-content: space-evenly;
   align-items: center;
   gap: 1.5rem;
+  background: linear-gradient(rgb(255, 140, 0), rgb(231, 209, 11));
+
 }
 
 .about-img img {
@@ -309,6 +311,7 @@ nav .list-nav-mobile li a:hover {
     padding: 20% 5% 10%;
     flex-direction: row;
     flex-wrap: wrap;
+
   }
 
   .about h2 {
@@ -404,6 +407,7 @@ nav .list-nav-mobile li a:hover {
 /* main skill END */
 
 /* main  activities START*/
+
 
 .activities {
   background: linear-gradient(360deg, rgb(231, 209, 11), rgb(255, 140, 0));
